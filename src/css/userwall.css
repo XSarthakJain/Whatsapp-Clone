@@ -4,7 +4,7 @@ section{
     height:65px;
     align-items: center;
     padding:10px;
-    /* background-color: red; */
+    cursor: pointer;
 }
 
 section img{

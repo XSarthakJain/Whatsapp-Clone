@@ -11,3 +11,7 @@
 .rightDiv{
     flex:0.7;
 }
+
+a{
+    text-decoration: none;
+}
