@@ -8,15 +8,15 @@ let Leftnavbar = ()=>{
             </div>
 
             <div className="leftsideheaderOptionOuter">
-            <span class="material-icons  leftsideheaderOption">
+            <span className="material-icons  leftsideheaderOption">
                 settings_backup_restore
             </span>
 
-            <span class="material-icons leftsideheaderOption">
+            <span className="material-icons leftsideheaderOption">
                 message
             </span>
 
-            <span class="material-icons leftsideheaderOption">
+            <span className="material-icons leftsideheaderOption">
                 more_vert
             </span>
             </div>
