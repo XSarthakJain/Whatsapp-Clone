@@ -1,11 +1,15 @@
 import React from 'react';
+import Leftnavbar from './Leftnavbar'
 
 
-
-let leftDiv = ()=>{
+let Leftdiv = ()=>{
     return (
         <React.Fragment>
-            <leftNavBar/>
+            <Leftnavbar/>
         </React.Fragment>
     );
 }
+
+
+
+export default Leftdiv;

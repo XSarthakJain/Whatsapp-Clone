@@ -1,11 +1,12 @@
 import React from 'react';
 import './css/App.css';
+import Leftdiv from './Leftdiv';
 let App = ()=>{
   return (
     <React.Fragment>
       <div className="container">
         <div className="leftDiv">
-          <h1>LeftDiv</h1>
+          <Leftdiv/>
         </div>
 
         <div className="rightDiv">
