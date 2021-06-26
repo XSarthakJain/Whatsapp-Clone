@@ -1,0 +1,13 @@
+.container{
+    display:flex;
+}
+
+.leftDiv{
+    flex:0.3;
+    border:1px solid #E9ECEF;
+    height:100vh;
+}
+
+.rightDiv{
+    flex:0.7;
+}
