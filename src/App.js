@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/App.css';
 import Leftdiv from './Leftdiv';
+import Rightdiv from './Rightdiv';
 let App = ()=>{
   return (
     <React.Fragment>
@@ -10,7 +11,7 @@ let App = ()=>{
         </div>
 
         <div className="rightDiv">
-          <h1>RightDiv</h1>
+          <Rightdiv/>
         </div>
       </div>
     </React.Fragment>

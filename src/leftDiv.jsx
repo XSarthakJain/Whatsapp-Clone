@@ -10,7 +10,13 @@ let Leftdiv = ()=>{
             <Leftdivsearchbar/>
             <div className="profileDatails">
             <Userwall/>
-            
+            <Userwall/>
+            <Userwall/>
+            <Userwall/>
+            <Userwall/>
+            <Userwall/>
+            <Userwall/>
+            <Userwall/>
             </div>
         </React.Fragment>
     );
