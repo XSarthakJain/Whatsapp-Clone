@@ -1,0 +1,59 @@
+section{
+    display: flex;
+    width:auto;
+    height:65px;
+    align-items: center;
+    padding:10px;
+    /* background-color: red; */
+}
+
+section img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    
+}
+section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #E9ECEF;
+}
+.profileInfo{
+    padding:12px;
+    display: inline-block;
+    border:none;
+}
+
+.profileInfo h4{
+    color:#000000;
+    font-weight: 400;
+}
+
+.profileInfo p{
+    font-size: small;
+    color:gray;
+}
+
+section div span{
+    color:gray;
+    font-size: small;
+}
+
+section div div:nth-child(2){
+    display: inline-block;
+    border: none;
+}
+
+.arrow{
+    display: none;
+}
+
+section:hover .arrow{
+    display:block;
+}
+
+section:hover{
+    background-color: rgba(237,237,237,0.2);
+    background-size: cover;
+}
