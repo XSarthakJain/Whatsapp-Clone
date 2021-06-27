@@ -25,7 +25,7 @@ let Bottomsendsection = ()=>{
                 attach_file
             </span>
 
-            <input type="text" placeholder="Type a message" className="messageBox" onInput={TypingStart}/>
+            <input type="text" placeholder="Type a message" className="messageBox" onInput={TypingStart} autoFocus/>
 
             <span className="material-icons sendMic">
                 mic

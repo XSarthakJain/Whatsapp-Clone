@@ -1,4 +1,5 @@
 .profileDatails{
     overflow-y: auto;
     height:79vh;
+    border-right:1px solid #D7D0CA;
 }
