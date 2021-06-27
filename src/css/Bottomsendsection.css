@@ -1,0 +1,36 @@
+.sendMessageOuter{
+    display:flex;
+    width:100%;
+    height:70px;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin:0;
+    padding:0;
+}
+
+.sendMessageOuter .sendSmile,.sendMic,.sendButton{
+    color:#A8A8A8;
+    margin-left: 1em;
+}
+
+.sendMessageOuter .sendAttachment{
+    color:#A8A8A8;
+    transform:rotate(45deg);
+    margin-left:1em;
+}
+
+.sendMessageOuter .messageBox{
+    width:80%;
+    padding:12px;
+    background-color: #FFFFFF;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+    margin-left:1em;
+}
+
+.sendMessageOuter .sendButton{
+    display: none;
+}
+
+

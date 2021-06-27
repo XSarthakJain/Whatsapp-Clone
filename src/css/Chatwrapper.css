@@ -1,0 +1,21 @@
+.chatWrapper{
+    overflow-y: auto;
+    background-image: url('https://web.whatsapp.com/img/bg-chat-tile-light_04fcacde539c58cca6745483d4858c52.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: rgba(229,221,213,1) !important; 
+    height: 75vh;
+    width:100% !important;
+    border-image-repeat: stretch;
+    border-image-slice:100%;
+    margin:0;
+}
+
+.chatWrapper :hover{
+    background-image: url('https://web.whatsapp.com/img/bg-chat-tile-light_04fcacde539c58cca6745483d4858c52.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-color: #E5DDD5 !important; 
+    height: 80vh;
+    width:100% !important;
+}

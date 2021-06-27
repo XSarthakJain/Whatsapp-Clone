@@ -3,9 +3,10 @@ import './css/userwall.css';
 
 
 let Userwalls = (params)=>{
+    
     return (
         <React.Fragment>
-            <section>
+            <section class="userWall">
                 <img src={params.imgadd} alt="personDP"/>
                 <div>
                 <div className="profileInfo">
