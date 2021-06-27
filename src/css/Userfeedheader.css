@@ -1,0 +1,41 @@
+.userFeedHeader{
+    display: flex;
+    width:100%;
+    height:60px;
+    background-color: #E9ECEF;
+    align-items: center;
+    border-bottom: 1px solid #D7D0CA;
+    border-left:1px solid #D7D0CA;
+}
+
+
+.userFeedHeader .userProfilePic{
+    flex:0.6;
+    display: flex;
+    align-items: center;
+}
+
+.userFeedHeader .userProfilePic img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    margin:0px 12px 0px 5px;
+}
+
+.userFeedHeader .userProfilePic span{
+    color: #000000;
+    font-weight: 480;
+    font-size: 15px;
+}
+
+.userFeedHeader .UserProfileOptions{
+    flex:0.4;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.userFeedHeader .UserProfileOptions span{
+    padding-right:12px;
+    color: #969696;
+}

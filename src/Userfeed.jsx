@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Userfeedheader from './Userfeedheader';
 
 
 const Userfeed = ()=>{
     return (
         <React.Fragment>
-            <h1>UserFeed</h1>
+            <Userfeedheader/>
         </React.Fragment>
     );
 }
