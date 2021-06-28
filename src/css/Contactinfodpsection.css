@@ -1,0 +1,23 @@
+.Contactinfodpsection{
+    width:100%;
+    color:black;
+    display: block;
+    border:none;
+}
+
+.Contactinfodpsection .ContactinfodpsectionDP{
+    border:none;
+}
+.Contactinfodpsection .ContactinfodpsectionDP img{
+    width: 200px;
+    height:200px;
+    margin:0 auto;
+}
+
+.Contactinfodpsection span{
+    display: block;
+    font-size: large;
+    color:#000000;
+    margin:1em 0 8px 26px;
+
+}

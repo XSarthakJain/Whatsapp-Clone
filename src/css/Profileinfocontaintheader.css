@@ -1,7 +1,22 @@
 .Profileinfocontaintheader{
     display: flex;
     width:100%;
-    height:60px;
+    height: 60px;
     background-color: #E9ECEF;
     align-items: center;
+    border-bottom: 1px solid #D7D0CA;
+    margin:0;
+    padding: 0;
+}
+
+.Profileinfocontaintheader .close{
+    color: #919191;
+    margin-left:1em;
+    font-weight: bold;
+}
+
+.Profileinfocontaintheader .headerTitle{
+    font-weight: normal;
+    margin-left: 1em;
+    padding-bottom:5px;
 }

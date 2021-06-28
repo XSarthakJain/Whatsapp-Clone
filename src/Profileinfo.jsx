@@ -7,13 +7,13 @@ import './css/Profileinfo.css';
 let Profileinfo = ()=>{
     return (
         <React.Fragment>
-            <div class="OuterProfileInfoSection">
-            <div>
+            <div  className="OuterProfileInfoSection">
+            <React.Fragment>
                 <Userfeed/>
-            </div>
-            <div>
+            </React.Fragment>
+            <React.Fragment>
                 <Profileinfocontaint/>
-            </div>
+            </React.Fragment>
             </div>
         </React.Fragment>
     );

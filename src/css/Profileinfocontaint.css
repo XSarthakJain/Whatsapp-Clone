@@ -1,0 +1,15 @@
+.ProfileinfocontaintOuter{
+    width: 100%;
+    padding:0;
+    border-left: 1px solid #D7D0CA;
+    flex:0.4;
+    display:block;
+    height:80vh;
+    background-color: #E5DDD5;
+}
+
+.ProfileinfocontaintOuter .ContactinfodpsectionOuter{
+    height:50vh;
+    width:100%;
+    background-color: #FFFFFF;
+}

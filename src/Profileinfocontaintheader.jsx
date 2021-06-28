@@ -6,7 +6,11 @@ let Profileinfocontaintheader = (params)=>{
     return (
         <React.Fragment>
             <header className="Profileinfocontaintheader">
-                <h4>{ params.name }</h4>
+
+                <span className="material-icons close">
+                    close
+                </span>
+                <span className="headerTitle">{ params.name }</span>
             </header>
         </React.Fragment>
     );
