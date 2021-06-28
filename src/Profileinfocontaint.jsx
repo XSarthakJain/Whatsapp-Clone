@@ -2,6 +2,7 @@ import React from 'react';
 import Profileinfocontaintheader from './Profileinfocontaintheader.jsx';
 import Contactinfodpsection from './Contactinfodpsection.jsx';
 import Contactinfomediasection from './Contactinfomediasection.jsx';
+import Contactinfopermission from './Contactinfopermission.jsx';
 import './css/Profileinfocontaint.css';
 
 let Profileinfocontaint = ()=>{
@@ -17,8 +18,16 @@ let Profileinfocontaint = ()=>{
                 <div className="ContactinfomediasectionOuter">
                 <Contactinfomediasection/>
                 </div>
-               
+
+                <div className="ContactinfoPermissionSection">
+                <Contactinfopermission permissionTitle="Mute notification" PermissionRedirectIcon="check_box_outline_blank" />
+                <Contactinfopermission permissionTitle="Starred Messages" PermissionRedirectIcon="navigate_next" />
+                <Contactinfopermission permissionTitle="Mute notification" PermissionRedirectIcon="navigate_next" status="Off"/>
+
                 
+
+                </div>
+
                 </div>
             </section>
         </React.Fragment>

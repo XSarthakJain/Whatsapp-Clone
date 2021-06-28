@@ -1,0 +1,19 @@
+.ContactinfoPermission{
+    padding:1em 1em 1em 0;
+    border-bottom:1px solid #E9ECEF !important;
+    width:90%;
+    display: block;
+}
+
+.ContactinfoPermission .permissionTitle{
+    font-size: large;
+    color:#000000;
+}
+
+.ContactinfoPermission .PermissionRedirectIcon{
+    float:right !important;
+}
+
+.ContactinfoPermission .status{
+    color: #afaaaa;
+}
