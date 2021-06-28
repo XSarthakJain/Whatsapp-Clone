@@ -1,6 +1,8 @@
 import React from 'react';
 import Userfeed from './Userfeed';
+import Profileinfocontaint from './Profileinfocontaint.jsx';
 import './css/Profileinfo.css';
+
 
 let Profileinfo = ()=>{
     return (
@@ -10,7 +12,7 @@ let Profileinfo = ()=>{
                 <Userfeed/>
             </div>
             <div>
-            <h1>Profile Infomation</h1>
+                <Profileinfocontaint/>
             </div>
             </div>
         </React.Fragment>

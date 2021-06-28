@@ -1,5 +1,5 @@
 import React from 'react';
-import Leftnavbar from './Leftnavbar'
+import Leftnavbar from './LeftNavBar.jsx'
 import Leftdivsearchbar from './Leftdivsearchbar';
 import Userwall from './Userwalls';
 import './css/leftdiv.css';
