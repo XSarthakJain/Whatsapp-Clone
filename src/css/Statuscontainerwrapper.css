@@ -1,0 +1,18 @@
+.Statuscontainerwrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.Statuscontainerwrapper .LeftStatusOuterWrapper{
+    flex:0.3;
+    background-color: #141414;
+    width:100%;
+    height:100vh;
+}
+
+.Statuscontainerwrapper .Statuscontainerwrapper{
+    flex: 0.7;
+    background-color: #000000;
+    width:100%;
+    height:100vh;
+}
