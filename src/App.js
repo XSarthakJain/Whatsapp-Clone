@@ -1,19 +1,14 @@
 import React from 'react';
-import './css/App.css';
-import Leftdiv from './Leftdiv';
-import Rightdiv from './Rightdiv';
+import Statuscontainerwrapper from './Statuscontainerwrapper.jsx';
+import Deshboard from './Deshboard';
+import {Switch,Route} from 'react-router-dom';
 let App = ()=>{
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="leftDiv">
-          <Leftdiv/>
-        </div>
-
-        <div className="rightDiv">
-          <Rightdiv/>
-        </div>
-      </div>
+      <Switch>
+      <Route exact path="/status" component={Statuscontainerwrapper}/>
+      <Route component={Deshboard}/>
+      </Switch>
     </React.Fragment>
   );
 }

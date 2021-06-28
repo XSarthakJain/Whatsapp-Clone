@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/leftNavBar.css';
+import { NavLink } from 'react-router-dom';
 let Leftnavbar = ()=>{
     return (
         <header>
@@ -8,9 +9,11 @@ let Leftnavbar = ()=>{
             </div>
 
             <div className="leftsideheaderOptionOuter">
+            <NavLink exact to="/status">
             <span className="material-icons  leftsideheaderOption">
                 settings_backup_restore
             </span>
+            </NavLink>
 
             <span className="material-icons leftsideheaderOption">
                 message
