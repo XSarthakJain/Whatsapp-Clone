@@ -17,9 +17,11 @@ let Userfeedheader = ()=>{
                         more_vert
                     </span>
 
+                    <NavLink exact to="/search">
                     <span class="material-icons">
                         search
                     </span>
+                    </NavLink>
                 </div>
             </header>
         </NavLink>

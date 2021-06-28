@@ -1,0 +1,13 @@
+.Searchchatinputbox{
+    flex:0.4;
+    height:100vh;
+    border-left:1px solid #DADADA;
+    background-color: #FFFFFF;
+}
+
+.Searchchatinputbox p{
+    text-align: center;
+    margin-top:3.5em;
+    font-size: 14px;
+    color:gray;
+}

@@ -10,7 +10,7 @@ let Leftdiv = ()=>{
     return (
         <React.Fragment>
             <Leftnavbar/>
-            <Leftdivsearchbar/>
+            <Leftdivsearchbar title="Search or Start new chat"/>
             <div className="profileDatails">
             <NavLink exact to="/chat"><Userwall name="Self" imgadd={imgAdd}/></NavLink>
             <NavLink exact to="/chat"><Userwall name="Bro" imgadd={imgAdd}/></NavLink>

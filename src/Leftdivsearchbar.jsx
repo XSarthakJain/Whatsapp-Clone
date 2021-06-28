@@ -2,7 +2,7 @@ import React from 'react';
 import './css/leftdivsearchbar.css';
 
 
-const Leftdivsearchbar = ()=>{
+const Leftdivsearchbar = (param)=>{
     return (
         <React.Fragment>
             <div className="searchBarOuter">
@@ -10,7 +10,7 @@ const Leftdivsearchbar = ()=>{
                     <span class="material-icons">
                         search
                     </span>
-                    <input type="text" placeholder="Search or Start new chat"/>
+                    <input type="text" placeholder={param.title}/>
                 </div>
             </div>
         </React.Fragment>
