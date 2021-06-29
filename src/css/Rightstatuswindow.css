@@ -1,0 +1,31 @@
+.RightStatusWindow{
+    display:block;
+    width:100%;
+}
+.RightStatusWindow .close{
+    color: #FFFFFF;
+    width:100%;
+    display: block;
+    float:right;
+    cursor: pointer;
+    padding-left:0;
+}
+
+.RightStatusWindow .close span{
+    padding: 14px;
+    float: right;
+}
+
+.RightStatusWindow .statusFeedMessageWrapper{
+    display: flex;
+    width:100%;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.RightStatusWindow .statusFeedMessageWrapper .statusFeedMessage{
+    color: #797474;
+    font-size: 16px;
+    font-weight:555;
+}
