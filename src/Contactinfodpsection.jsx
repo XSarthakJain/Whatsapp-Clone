@@ -1,13 +1,13 @@
 import React from 'react';
 import './css/Contactinfodpsection.css';
-
+import user2 from './media/user2.jpg';
 
 let Contactinfodpsection = ()=>{
     return (
         <React.Fragment>
             <div className="Contactinfodpsection">
                 <div class="ContactinfodpsectionDP">
-                <img src="https://preview.keenthemes.com/metronic-v4/theme/assets/pages/media/profile/profile_user.jpg" alt="DP here"/>
+                <img src={user2} alt="DP here"/>
                 </div>
                 <span>Utk@rsh</span>
             </div>

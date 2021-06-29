@@ -6,6 +6,13 @@ import Contactinfopermission from './Contactinfopermission.jsx';
 import './css/Profileinfocontaint.css';
 
 let Profileinfocontaint = ()=>{
+    
+setTimeout(()=>{
+    let profile = document.getElementsByClassName("ProfileinfocontaintInner")[0];
+    if(profile!=undefined){
+    profile.classList.add("ProfileinfocontaintInnerAfterEffect");
+   }
+},100);
     return (
         <React.Fragment>
             <section className="ProfileinfocontaintOuter">

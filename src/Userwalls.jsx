@@ -11,10 +11,10 @@ let Userwalls = (params)=>{
                 <div>
                 <div className="profileInfo">
                     <h4>{params.name}</h4>
-                    <p>Tahir Sir : The Online Test is Schedule Today.</p>
+                    <p>{params.containt}</p>
                 </div>
                 <div>
-                <span>6/19/2021</span>
+                <span>{params.time}</span>
                 <span className="material-icons arrow">
                     keyboard_arrow_down
                 </span>
