@@ -1,6 +1,6 @@
 .container{
     display:flex;
-    height:99vh;
+    height:100vh;
     overflow:hidden;
 }
 
@@ -17,3 +17,22 @@
 a{
     text-decoration: none;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  /* Track */
+::-webkit-scrollbar-track {
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #CCCCCC; 
+  }
+  
+  /* Handle on hover
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+   */

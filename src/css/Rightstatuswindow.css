@@ -18,15 +18,23 @@
 }
 
 .RightStatusWindow .statusFeedMessageWrapper{
-    display: flex;
+    /* display: flex;
     width:100%;
     height:100%;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 
 }
-.RightStatusWindow .statusFeedMessageWrapper .statusFeedMessage{
+.RightStatusWindow .statusFeedMessage{
     color: #797474;
     font-size: 16px;
     font-weight:555;
+    text-align: center;
+    width:100%;
+    display: block;
+}
+.statusLogo{
+    margin:23% auto;
+    margin-bottom: 0;
+    display: block;
 }
