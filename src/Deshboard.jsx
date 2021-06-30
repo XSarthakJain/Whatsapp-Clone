@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import Leftdiv from './Leftdiv.jsx';
+=======
+import Leftdiv from './Leftdiv';
+>>>>>>> 402bc8d16722aa1ff7ed169258305615f7f1c462
 import Rightdiv from './Rightdiv';
 import './css/App.css';
 
