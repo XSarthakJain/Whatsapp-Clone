@@ -1,0 +1,41 @@
+.Leftstatuswindow{
+    padding-top:2.5em;
+    /* flex:0.3; */
+}
+
+.Leftstatuswindow .divider{
+    border-bottom: 1px solid rgb(71, 70, 70);
+    width:99%;
+    padding-bottom: 1.5em;
+    margin-left:1%;
+}
+
+.Leftstatuswindow .indicateTag{
+    color: #A4A4A4;
+    font-size: small;
+    text-transform: uppercase;
+    margin-top:6px;
+    margin-bottom:6px;
+    display:block;
+    padding-left:2%;
+}
+
+.Leftstatuswindow .DisableStatus{
+    border-top:1px solid rgb(71, 70, 70);
+    width:90%;
+    margin:1em 12px 1em 12px;
+}
+
+.Leftstatuswindow .DisableStatus .Muted{
+    color: #A4A4A4;
+    float:left;
+    margin-top:6px;
+    font-size: 14px;
+}
+
+.Leftstatuswindow .DisableStatus .Show{
+    color: #A4A4A4;
+    float:right;
+    margin-top:6px;
+    font-size: 14px;
+}

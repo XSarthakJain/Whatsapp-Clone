@@ -1,0 +1,51 @@
+.ProfileinfocontaintOuter{
+    width: 100%;
+    padding:0;
+    border-left: 1px solid #D7D0CA;
+    flex:0.4;
+    display:block;
+    height:100vh;
+    background-color: #E5DDD5;
+    position: relative;
+}
+
+.ProfileinfocontaintInner{
+    width:0;
+    display: inline-block;
+    height:99vh;
+    overflow-y: auto;
+    position: absolute;
+    transition: all 0.1s linear;
+    top: 60px;
+    bottom: 0;
+    right: 0;
+}
+
+.ProfileinfocontaintInnerAfterEffect{
+    width:100%;
+}
+
+.ProfileinfocontaintOuter .ProfileinfocontaintInner .ContactinfodpsectionOuter{
+    height:50vh;
+    width:100%;
+    background-color: #FFFFFF;
+}
+
+.ProfileinfocontaintOuter .ProfileinfocontaintInner .ContactinfomediasectionOuter{
+    height:auto;
+    width:100%;
+    background-color: #FFFFFF;
+    margin-top:8px;
+    border-bottom: none;
+}
+
+.ProfileinfocontaintOuter .ProfileinfocontaintInner .ContactinfoPermissionSection{
+    border:none;
+    /* margin-top:1px; */
+    background-color: #FFFFFF;
+    padding-left:1.5em;
+    width:100%;
+    height:auto;
+    display: block;
+    padding-bottom: 3em;
+}

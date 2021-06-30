@@ -1,3 +1,5 @@
 .OuterProfileInfoSection{
     display: flex;
+    justify-content: space-between;
+    background-color: #E5DDD5;
 }

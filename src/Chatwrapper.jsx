@@ -6,11 +6,11 @@ let Chatwrapper = ()=>{
     return (
         <React.Fragment>
             <section className="chatWrapper">
+                {/* <Chat/>
                 <Chat/>
                 <Chat/>
                 <Chat/>
-                <Chat/>
-                <Chat/>
+                <Chat/> */}
             </section>
         </React.Fragment>
     );

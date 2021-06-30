@@ -38,12 +38,17 @@
     justify-content: center;
 }
 
+.emptypage span{
+    font-size:14px;
+}
 .emptypage span span{
     color: #AAABAB;
     margin:0 5px;
+    font-size: 20px;
 }
 .emptypage span a{
     color: #07BC4C;
     text-decoration: none;
+    margin-left:5px;
 }
 

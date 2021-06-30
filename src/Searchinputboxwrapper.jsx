@@ -1,10 +1,9 @@
 import React from 'react';
 import Userfeed from './Userfeed';
-import Profileinfocontaint from './Profileinfocontaint.jsx';
+import Searchchatinputbox from './Searchchatinputbox';
 import './css/Profileinfo.css';
 
-
-let Profileinfo = ()=>{
+let Searchinputboxwrapper = ()=>{
     return (
         <React.Fragment>
             <div  className="OuterProfileInfoSection">
@@ -12,11 +11,13 @@ let Profileinfo = ()=>{
                 <Userfeed/>
             </React.Fragment>
             <React.Fragment>
-                <Profileinfocontaint/>
+                <Searchchatinputbox/>
             </React.Fragment>
             </div>
         </React.Fragment>
     );
 }
 
-export default Profileinfo;
+
+
+export default Searchinputboxwrapper;
