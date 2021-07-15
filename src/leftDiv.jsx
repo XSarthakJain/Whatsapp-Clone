@@ -18,9 +18,9 @@ let Leftdiv = ()=>{
             <Leftnavbar/>
             <Leftdivsearchbar title="Search or Start new chat"/>
             <div className="profileDatails">
-            <NavLink exact to="/chat"><Userwall name="Self" imgadd={user1} time="4:46 PM" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>
-            <NavLink exact to="/chat"><Userwall name="Utk@rsh" imgadd={user2} time="Wednesday" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>
-            <NavLink exact to="/chat"><Userwall name="Dd" imgadd={user3} time="6/12/2021" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>
+            <NavLink exact to="/chat"><Userwall name="Self" imgadd={user1} time="4:46 PM" containt="remember this task should be finish till november."/></NavLink>
+            <NavLink exact to="/chat"><Userwall name="Utk@rsh" imgadd={user2} time="1:25 PM" containt="At this point, your project working directory"/></NavLink>
+            <NavLink exact to="/chat"><Userwall name="Dd" imgadd={user3} time="6/12/2021" containt="Happy Holi may the most blassed holi festival,"/></NavLink>
             <NavLink exact to="/chat"><Userwall name="Virraj" imgadd={user4} time="6/19/2021" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>
             <NavLink exact to="/chat"><Userwall name="N. K MISHRA HOD SIR" imgadd={user5} time="6/19/2021" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>
             <NavLink exact to="/chat"><Userwall name="Vivek Pandey Sir" imgadd={user6} time="6/16/21" containt="Tahir Sir : The Online Test is Schedule Today."/></NavLink>

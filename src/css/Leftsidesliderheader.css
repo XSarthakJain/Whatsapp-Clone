@@ -1,0 +1,28 @@
+.LeftsidesliderheaderWrapper{
+    width:100%;
+    height:110px;
+    color:#ffffff;
+    background-color: #00BFA5;
+}
+
+.LeftsidesliderheaderWrapper .LeftsidesliderheaderWrapperContaint{
+    margin-left:1.5em;
+    margin-top:50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border:none;
+    color:#ffffff;
+}
+
+.LeftsidesliderheaderWrapper .LeftsidesliderheaderWrapperContaint span:first-child{
+    flex:0.2;
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.LeftsidesliderheaderWrapper .LeftsidesliderheaderWrapperContaint p:nth-child(2){
+    flex:0.8;
+    font-size:19px;
+}
+

@@ -1,18 +1,19 @@
 import React from 'react';
-<<<<<<< HEAD
 import Leftdiv from './Leftdiv.jsx';
-=======
-import Leftdiv from './Leftdiv';
->>>>>>> 402bc8d16722aa1ff7ed169258305615f7f1c462
+import Userprofile from './Userprofile.jsx';
 import Rightdiv from './Rightdiv';
 import './css/App.css';
-
+import {Switch,Route} from 'react-router-dom';
 let Deshboard = ()=>{
     return (
         <React.Fragment>
             <div className="container">
                 <div className="leftDiv">
-                <Leftdiv/>
+                <Switch>
+                    <Route exact path="/userprofile" component={Userprofile}/>
+                    <Route component={Leftdiv}/>
+                </Switch>
+                {/* <Leftdiv/> */}
                 </div>
 
                 <div className="rightDiv">

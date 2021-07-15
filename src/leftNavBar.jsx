@@ -6,7 +6,9 @@ let Leftnavbar = ()=>{
     return (
         <header>
             <div>
+                <NavLink exact to="/Userprofile">
                 <img src={admin} alt="DP"/>
+                </NavLink>
             </div>
 
             <div className="leftsideheaderOptionOuter">

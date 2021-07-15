@@ -1,0 +1,27 @@
+.UserprofileinfoWrapper{
+    width:100%;
+    height: auto;
+    background-color: #FFFFFF;
+    display:block;
+    padding:12px 1.5em;
+}
+
+.UserprofileinfoWrapper label{
+    color:#009688;
+}
+
+.UserprofileinfoWrapper p{
+    margin-top:12px;
+}
+
+.editProfileContaint{
+    float:right;
+    margin-right:2em;
+}
+
+.UserProfileinfoMessage{
+    text-align: left;
+    color:gray;
+    font-size: 14px;
+    padding:1.5em;
+}
